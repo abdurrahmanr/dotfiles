@@ -11,6 +11,7 @@ $nodejs\
 $rust\
 $golang\
 $php\
+$python\
 \n$character"""
 
 [directory]

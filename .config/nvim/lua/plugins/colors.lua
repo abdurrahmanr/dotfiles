@@ -1,5 +1,7 @@
 return {
-  { "rebelot/kanagawa.nvim" },
+  { "rebelot/kanagawa.nvim", opts = {
+    transparent = true,
+  } },
   {
     "thesimonho/kanagawa-paper.nvim",
     lazy = false,
