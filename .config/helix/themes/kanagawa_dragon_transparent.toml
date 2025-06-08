@@ -1,0 +1,4 @@
+inherits = "kanagawa-dragon"
+"ui.background" = {}
+"ui.gutter" = { fg = "", bg = "" }
+"ui.linenr" = "dragonBlack6"

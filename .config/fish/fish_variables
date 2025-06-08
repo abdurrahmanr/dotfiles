@@ -1,0 +1,53 @@
+# This file contains fish universal variable definitions.
+# VERSION: 3.0
+SETUVAR --export ANDROID_HOME:/home/abdurrahmanr/Android/Sdk
+SETUVAR --export EDITOR:nvim
+SETUVAR --path PATH:/home/abdurrahmanr/\x2elocal/share/nvim/mason/bin\x1e/home/abdurrahmanr/\x2ebun/bin\x1e/home/abdurrahmanr/flutter/bin\x1e/home/abdurrahmanr/\x2elocal/share/nvm/v22\x2e14\x2e0/bin\x1e/home/abdurrahmanr/\x2ebun/bin\x1e/home/abdurrahmanr/flutter/bin\x1e/home/abdurrahmanr/\x2esdkman/candidates/java/current/bin\x1e/home/abdurrahmanr/\x2econfig/herd\x2dlite/bin\x1e/home/abdurrahmanr/\x2ecargo/bin\x1e/home/abdurrahmanr/\x2elocal/bin\x1e/usr/local/sbin\x1e/usr/local/bin\x1e/usr/bin\x1e/var/lib/flatpak/exports/bin\x1e/usr/lib/jvm/default/bin\x1e/usr/bin/site_perl\x1e/usr/bin/vendor_perl\x1e/usr/bin/core_perl\x1e/home/abdurrahmanr/Android/Sdk/platform\x2dtools
+SETUVAR --export STARSHIP_CONFIG:/home/abdurrahmanr/\x2econfig/starship/starship\x2etoml
+SETUVAR __fish_initialized:3800
+SETUVAR _fisher_jorgebucaran_2F_fisher_files:\x7e/\x2econfig/fish/functions/fisher\x2efish\x1e\x7e/\x2econfig/fish/completions/fisher\x2efish
+SETUVAR _fisher_jorgebucaran_2F_nvm_2E_fish_files:\x7e/\x2econfig/fish/functions/_nvm_index_update\x2efish\x1e\x7e/\x2econfig/fish/functions/_nvm_list\x2efish\x1e\x7e/\x2econfig/fish/functions/_nvm_version_activate\x2efish\x1e\x7e/\x2econfig/fish/functions/_nvm_version_deactivate\x2efish\x1e\x7e/\x2econfig/fish/functions/nvm\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/nvm\x2efish\x1e\x7e/\x2econfig/fish/completions/nvm\x2efish
+SETUVAR _fisher_paldepind_2F_projectdo_files:\x7e/\x2econfig/fish/functions/projectdo_build\x2efish\x1e\x7e/\x2econfig/fish/functions/projectdo_run\x2efish\x1e\x7e/\x2econfig/fish/functions/projectdo_test\x2efish\x1e\x7e/\x2econfig/fish/functions/projectdo_tool\x2efish\x1e\x7e/\x2econfig/fish/completions/projectdo\x2efish
+SETUVAR _fisher_plugins:jorgebucaran/fisher\x1epaldepind/projectdo\x1ejorgebucaran/nvm\x2efish\x1ereitzig/sdkman\x2dfor\x2dfish\x40v2\x2e1\x2e0
+SETUVAR _fisher_reitzig_2F_sdkman_2D_for_2D_fish_40_v2_2E_31_2E_30__files:\x7e/\x2econfig/fish/functions/sdk\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/sdk\x2efish\x1e\x7e/\x2econfig/fish/completions/sdk\x2efish
+SETUVAR _fisher_upgraded_to_4_4:\x1d
+SETUVAR fish_color_autosuggestion:585858
+SETUVAR fish_color_cancel:\x2d\x2dreverse
+SETUVAR fish_color_command:a1b56c
+SETUVAR fish_color_comment:f7ca88
+SETUVAR fish_color_cwd:green
+SETUVAR fish_color_cwd_root:red
+SETUVAR fish_color_end:ba8baf
+SETUVAR fish_color_error:ab4642
+SETUVAR fish_color_escape:86c1b9
+SETUVAR fish_color_history_current:\x2d\x2dbold
+SETUVAR fish_color_host:normal
+SETUVAR fish_color_host_remote:yellow
+SETUVAR fish_color_keyword:a1b56c
+SETUVAR fish_color_match:7cafc2
+SETUVAR fish_color_normal:normal
+SETUVAR fish_color_operator:7cafc2
+SETUVAR fish_color_option:d8d8d8
+SETUVAR fish_color_param:d8d8d8
+SETUVAR fish_color_quote:f7ca88
+SETUVAR fish_color_redirection:d8d8d8
+SETUVAR fish_color_search_match:bryellow\x1e\x2d\x2dbackground\x3dbrblack
+SETUVAR fish_color_selection:white\x1e\x2d\x2dbold\x1e\x2d\x2dbackground\x3dbrblack
+SETUVAR fish_color_status:red
+SETUVAR fish_color_user:brgreen
+SETUVAR fish_color_valid_path:\x2d\x2dunderline
+SETUVAR fish_key_bindings:fish_default_key_bindings
+SETUVAR fish_pager_color_background:\x1d
+SETUVAR fish_pager_color_completion:normal
+SETUVAR fish_pager_color_description:B3A06D
+SETUVAR fish_pager_color_prefix:normal\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
+SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
+SETUVAR fish_pager_color_secondary_background:\x1d
+SETUVAR fish_pager_color_secondary_completion:\x1d
+SETUVAR fish_pager_color_secondary_description:\x1d
+SETUVAR fish_pager_color_secondary_prefix:\x1d
+SETUVAR fish_pager_color_selected_background:\x2d\x2dbackground\x3dbrblack
+SETUVAR fish_pager_color_selected_completion:\x1d
+SETUVAR fish_pager_color_selected_description:\x1d
+SETUVAR fish_pager_color_selected_prefix:\x1d
+SETUVAR nvm_default_version:lts

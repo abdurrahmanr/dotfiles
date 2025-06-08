@@ -1,0 +1,116 @@
+theme = "kanagawa_dragon_transparent"
+
+[editor]
+bufferline = "always"
+idle-timeout = 0
+auto-format = true
+end-of-line-diagnostics = "hint"
+# cursorline = true
+color-modes = true
+# popup-border = "all"
+mouse = false
+completion-replace = true
+path-completion = true
+true-color = true
+
+[editor.lsp]
+display-messages = true
+
+[editor.whitespace.render]
+space = "none"
+nbsp = "none"
+tab = "none"
+newline = "none"
+
+[editor.whitespace.characters]
+space = "·"
+nbsp = "⍽"
+tab = "→"
+newline = "⏎"
+tabpad = "·"  # Tabs will look like "→···" (depending on tab width)
+
+[editor.file-picker]
+hidden = false
+
+[editor.inline-diagnostics]
+cursor-line = "warning"
+
+[editor.cursor-shape]
+insert = "bar"
+
+[editor.gutters.line-numbers]
+min-width = 1
+
+[editor.soft-wrap]
+enable = true
+
+[keys.normal]
+C-s = ":w"
+A-c = "toggle_block_comments"
+g = { a = "code_action" }
+C-space = "signature_help"
+# move/copy line below/above
+"A-j" = ["extend_to_line_bounds", "delete_selection", "paste_after"]
+"A-k" = [
+  "extend_to_line_bounds",
+  "delete_selection",
+  "move_line_up",
+  "paste_before",
+]
+"A-J" = ["extend_to_line_bounds", "yank", "paste_after"]
+"A-K" = ["extend_to_line_bounds", "yank", "paste_before"]
+# previous/next buffer
+H = "goto_previous_buffer"
+L = "goto_next_buffer"
+"X" = ["extend_line_up", "extend_to_line_bounds"]
+C-q = ":bc"
+"ret" = "goto_word"
+a = ["append_mode", "collapse_selection"]
+C-y = [
+  ':sh rm -f /tmp/yazi-path',
+  ':insert-output yazi %{buffer_name} --chooser-file=/tmp/yazi-path',
+  ":open %sh{cat /tmp/yazi-path}",
+  ":redraw",
+]
+
+[keys.normal.space]
+q = ":quit"
+
+[keys.normal.tab]
+c = [":config-open"]
+r = [":config-reload"]
+
+[keys.insert]
+j = { k = "normal_mode" }
+"C-space" = "completion"
+
+[editor.statusline]
+left = [
+  "mode",
+  "spinner",
+  "read-only-indicator",
+  "file-modification-indicator",
+  "version-control",
+]
+center = ["file-name"]
+right = [
+  "diagnostics",
+  "selections",
+  "position",
+  "position-percentage",
+  "file-encoding",
+  "file-line-ending",
+  "file-type",
+]
+separator = "│"
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "SELECT"
+
+[editor.auto-save]
+focus-lost = true
+after-delay.enable = true
+
+[editor.indent-guides]
+render = true
+character = "╎" # Some characters that work well: "▏", "┆", "┊", "⸽"

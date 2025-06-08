@@ -1,0 +1,60 @@
+format = """
+[░▒▓](#C5C9C7)\
+[ 󰣇 ](bg:#C5C9C7 fg:#090c0c)\
+[](bg:#16161D fg:#C5C9C7)\
+$directory\
+[](fg:#16161D bg:#2A2A37)\
+$git_branch\
+$git_status\
+[](fg:#2A2A37)\
+$nodejs\
+$rust\
+$golang\
+$php\
+\n$character"""
+
+[directory]
+style = "fg:#C5C9C7 bg:#16161D"
+format = "[ $path ]($style)"
+truncation_length = 3
+truncation_symbol = "…/"
+
+[directory.substitutions]
+"Documents" = "󰈙 "
+"Downloads" = " "
+"Music" = " "
+"Pictures" = " "
+
+[git_branch]
+symbol = ""
+style = "bg:#2A2A37"
+format = '[[ $symbol $branch ](fg:#C5C9C7 bg:#2A2A37)]($style)'
+
+[git_status]
+style = "bg:#2A2A37"
+format = '[[($all_status$ahead_behind )](fg:#C5C9C7 bg:#2A2A37)]($style)'
+
+[nodejs]
+symbol = ""
+style = "bg:#1F1F28"
+format = '[[ $symbol ($version) ](fg:#C5C9C7 bg:#1F1F28)]($style)'
+
+[rust]
+symbol = ""
+style = "bg:#1F1F28"
+format = '[[ $symbol ($version) ](fg:#C5C9C7 bg:#1F1F28)]($style)'
+
+[golang]
+symbol = ""
+style = "bg:#1F1F28"
+format = '[[ $symbol ($version) ](fg:#C5C9C7 bg:#1F1F28)]($style)'
+
+[php]
+symbol = ""
+style = "bg:#1F1F28"
+format = '[[ $symbol ($version) ](fg:#C5C9C7 bg:#1F1F28)]($style)'
+
+[python]
+symbol = "🐍 "
+python_binary = [["uv", "run", "--no-python-downloads", "python"]]
+format = 'via [${symbol}${pyenv_prefix}(${version} )(\($virtualenv\) )]($style)'
