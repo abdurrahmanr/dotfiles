@@ -2,7 +2,7 @@
 # VERSION: 3.0
 SETUVAR --export ANDROID_HOME:/home/abdurrahmanr/Android/Sdk
 SETUVAR --export EDITOR:nvim
-SETUVAR --path PATH:/home/abdurrahmanr/\x2elocal/share/nvim/mason/bin\x1e/home/abdurrahmanr/\x2ebun/bin\x1e/home/abdurrahmanr/flutter/bin\x1e/home/abdurrahmanr/\x2elocal/share/nvm/v22\x2e14\x2e0/bin\x1e/home/abdurrahmanr/\x2ebun/bin\x1e/home/abdurrahmanr/flutter/bin\x1e/home/abdurrahmanr/\x2esdkman/candidates/java/current/bin\x1e/home/abdurrahmanr/\x2econfig/herd\x2dlite/bin\x1e/home/abdurrahmanr/\x2ecargo/bin\x1e/home/abdurrahmanr/\x2elocal/bin\x1e/usr/local/sbin\x1e/usr/local/bin\x1e/usr/bin\x1e/var/lib/flatpak/exports/bin\x1e/usr/lib/jvm/default/bin\x1e/usr/bin/site_perl\x1e/usr/bin/vendor_perl\x1e/usr/bin/core_perl\x1e/home/abdurrahmanr/Android/Sdk/platform\x2dtools
+SETUVAR --path PATH:/home/abdurrahmanr/\x2elocal/share/nvim/mason/bin\x1e/home/abdurrahmanr/\x2ebun/bin\x1e/home/abdurrahmanr/flutter/bin\x1e/home/abdurrahmanr/\x2esdkman/candidates/java/current/bin\x1e/home/abdurrahmanr/\x2econfig/herd\x2dlite/bin\x1e/home/abdurrahmanr/\x2ecargo/bin\x1e/home/abdurrahmanr/\x2elocal/bin\x1e/usr/local/sbin\x1e/usr/local/bin\x1e/usr/bin\x1e/var/lib/flatpak/exports/bin\x1e/usr/lib/jvm/default/bin\x1e/usr/bin/site_perl\x1e/usr/bin/vendor_perl\x1e/usr/bin/core_perl\x1e/home/abdurrahmanr/Android/Sdk/platform\x2dtools
 SETUVAR --export STARSHIP_CONFIG:/home/abdurrahmanr/\x2econfig/starship/starship\x2etoml
 SETUVAR __fish_initialized:3800
 SETUVAR _fisher_jorgebucaran_2F_fisher_files:\x7e/\x2econfig/fish/functions/fisher\x2efish\x1e\x7e/\x2econfig/fish/completions/fisher\x2efish
